@@ -1,6 +1,6 @@
 import {ApolloServer} from "@apollo/server"
 import { startStandaloneServer } from "@apollo/server/standalone"
-import mongoose from "mongoose"
+import mongoose from "npm:mongoose@8.0.3";
 import { typeDefs } from "./gql/typeDefs.ts";
 import { Query } from "./Resolvers/Query.ts";
 import { Mutation } from "./Resolvers/Mutation.ts";
