@@ -1,4 +1,4 @@
-import { GraphQLError } from "graphql";
+import { GraphQLError } from "npm:graphql@16.8.1";
 import {Modelocoleccion_de_comicsType, Modelocomics } from "../db/Schema.ts";
 import { comics } from "../types.ts";
 import { ComictipoaComic } from "../Controladores/De_Comic_tipo_a_Comic.ts";
