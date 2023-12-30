@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from "npm:mongoose@8.0.3";
 import { usuario, coleccion_de_comics, comics } from "../types.ts";
 
 
